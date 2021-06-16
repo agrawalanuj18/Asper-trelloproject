@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+p {
+    padding-bottom: 15px;
+    line-height: 1.3em;
+}
+
+body {
+    font: normal 0.8em "varts", arial, sans-serif;
+    color: rgb(104, 103, 103);
+    background: url(assets/WBG.jpg) no-repeat;
+    background-size: cover;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  {
+    font: normal 175% "century gothic", arial, sans-serif;
+    color: rgb(104, 103, 103);
+    margin-bottom: 20px;
+  }
+  
+  
