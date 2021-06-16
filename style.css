@@ -25,12 +25,13 @@ body {
     margin-bottom: 20px;
   }
   
+  
   a {
     color: palevioletred;
   }
   
-  #logo,
-  #tab {
+  #first,
+  #nav {
     margin-left: auto;
     margin-right: auto;
   }
@@ -39,25 +40,25 @@ body {
     background: url(assets/HeaderBg.png);
   }
   
-  #logo {
+  #first {
     position: relative;
     top: 25px;
     width: 79vw;
     height: 170px;
   }
   
-  #logo h1,
-  #logo h2 {
+  #first h1,
+  #first h2 {
     font: normal 3rem "century gothic", arial, sans-serif;
     color: white;
     margin: 0;
   }
   
-  #logo h2 {
+  #first h2 {
     font-size: 90%;
   }
   
-  #logo a {
+  #first a {
     text-decoration: none;
     color: white;
   }
@@ -68,14 +69,14 @@ body {
     color: #1a96ee;
   }
   
-  #tab {
+  #nav {
     display: flex;
     flex-flow: wrap;
     width: 79vw;
     background: #1a96ee;
   }
   
-  #tab a {
+  #nav a {
     letter-spacing: 0.1em;
     display: block;
     color: white;
@@ -86,43 +87,43 @@ body {
   }
   
   .active,
-  #tab a:hover {
+  #nav a:hover {
     background: #0d598e;
   }
   
-  #maincontent {
+  #main {
     display: flex;
     width: 79vw;
     margin: 0 auto 0 auto;
     background: white;
   }
   
-  #maincontent h1,
-  .rightcontent h3 {
+  #main h1,
+  .right h3 {
     color: rgb(68, 68, 68);
   }
   
-  .leftcontent {
+  .left {
     text-align: left;
     width: 71%;
     padding: 3%;
     padding-top: 4%;
   }
   
-  .leftcontent ul li {
+  .left ul li {
     list-style-type: none;
     background: url(assets/bullet.png) no-repeat;
     margin: 0 0 6px 0;
     padding: 0 0 4px 25px;
   }
   
-  .rightcontent {
+  .right {
     width: 27%;
     padding: 1.5%;
     padding-top: 4%;
   }
   
-  .rightcontent ul li {
+  .right ul li {
     list-style-type: none;
     background: url(assets/link.png) no-repeat;
     margin: 0 0 6px 0;
@@ -193,4 +194,3 @@ body {
       justify-content: center;
     }
   }
-  
